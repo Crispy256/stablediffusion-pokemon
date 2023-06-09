@@ -21,7 +21,7 @@ gradio==3.1.4
 diffusers==0.3.0
 datasets[vision]==2.4.0
 xformers==0.0.16rc425
--e git+https://ghproxy.com/https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers
--e git+https://ghproxy.com/https://github.com/openai/CLIP.git@main#egg=clip
--e git+https://ghproxy.com/https://github.com/justinpinkney/nomi.git@e9ded23b7e2269cc64d39683e1bf3c0319f552ab#egg=nomi
+#-e git+https://ghproxy.com/https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers
+#-e git+https://ghproxy.com/https://github.com/openai/CLIP.git@main#egg=clip
+#-e git+https://ghproxy.com/https://github.com/justinpinkney/nomi.git@e9ded23b7e2269cc64d39683e1bf3c0319f552ab#egg=nomi
 -e .
